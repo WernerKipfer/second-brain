@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(rm:*)",
+      "Bash(rm -rf:*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(git push origin main:*)",
+      "Edit(raw/**)",
+      "WebFetch",
+      "WebSearch"
+    ]
+  }
+}
