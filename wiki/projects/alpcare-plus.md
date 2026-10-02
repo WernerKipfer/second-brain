@@ -3,7 +3,7 @@ title: AlpCare Plus
 type: project
 created: 2026-10-02
 updated: 2026-10-02
-sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md]
+sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md, raw/alpstein/2026-06-18-email-thread-bergland.md]
 tags: [service, pricing]
 ---
 
@@ -33,3 +33,11 @@ Planned premium variant of [[alpcare]].
 
 > [!note] Uncertain
 > The memo is a **draft for discussion** at the EB meeting of 7 May 2026. The wiki does not yet contain the outcome of that meeting; nothing in it counts as decided.
+
+## From the email thread of 16–18 June 2026
+
+- [[jonas-weber]] offered [[bergland-logistik-ag]] "AlpCare with a guaranteed response time" for CHF 1,450 – which matches the scope of AlpCare Plus, but not its proposed price. (Source: [[2026-06-18-email-thread-bergland]])
+- [[sandra-koller]]: pricing for AlpCare/AlpCare Plus not decided yet (16 June 2026). (Source: [[2026-06-18-email-thread-bergland]])
+
+> [!warning] Contradiction
+> Price of AlpCare: [[jonas-weber]] writes to the customer on 16 June 2026 that AlpCare "now costs CHF 1,450 per robot and month" and includes a guaranteed response time (Source: [[2026-06-18-email-thread-bergland]]). The EB minutes of 12 March 2026 ([[2026-03-12-executive-board-minutes]]) and the strategy memo of 5 May 2026 ([[2026-05-05-strategy-memo-service-first]]) give **CHF 1,200**, and the memo proposes the guaranteed response time as a separate product, [[alpcare-plus]], at CHF 1,900. On the same day [[sandra-koller]] writes that the pricing question for AlpCare/AlpCare Plus "has not been decided yet" (Source: [[2026-06-18-email-thread-bergland]]). Not resolved – to be clarified.

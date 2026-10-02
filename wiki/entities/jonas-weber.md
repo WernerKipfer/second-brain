@@ -3,7 +3,7 @@ title: Jonas Weber
 type: entity
 created: 2026-10-02
 updated: 2026-10-02
-sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md]
+sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md, raw/alpstein/2026-06-18-email-thread-bergland.md]
 tags: [person, executive-board]
 ---
 
@@ -21,3 +21,9 @@ tags: [person, executive-board]
 ## From the strategy memo of 5 May 2026
 
 - Responsible for [[alpcare-plus]] and, with [[priya-raman]], for the [[agentic-ai-service-pilot]]. (Source: [[2026-05-05-strategy-memo-service-first]])
+
+## From the email thread of 16–18 June 2026
+
+- Answered the complaint of [[thomas-rueegg]] ([[bergland-logistik-ag]]): named the cause (navigation software update of 20 May), announced a patch. (Source: [[2026-06-18-email-thread-bergland]])
+- Told the customer that AlpCare now costs CHF 1,450 with a guaranteed response time, and that the [[alppick-2-0]] launch is assumed for Q4 – both contradict the documented status (see [[2026-06-18-email-thread-bergland]]). (Source: [[2026-06-18-email-thread-bergland]])
+- Wrote "I think we can do something about that"; internally says he did not commit to anything concrete. (Source: [[2026-06-18-email-thread-bergland]])
