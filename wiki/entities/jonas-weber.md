@@ -3,7 +3,7 @@ title: Jonas Weber
 type: entity
 created: 2026-10-02
 updated: 2026-10-02
-sources: [raw/alpstein/2026-03-12-executive-board-minutes.md]
+sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md]
 tags: [person, executive-board]
 ---
 
@@ -17,3 +17,7 @@ tags: [person, executive-board]
 - Reported that [[remote-monitoring]] via [[alpmind]] reduces on-site visits by about 30%. (Source: [[2026-03-12-executive-board-minutes]])
 - Reported that customers ask for a guaranteed response time under 4 hours; proposal [[alpcare-plus]] to be presented in May. (Source: [[2026-03-12-executive-board-minutes]])
 - Responsible with [[marco-steiner]] for P-02: pricing model for AlpCare Plus by 7 May 2026. (Source: [[2026-03-12-executive-board-minutes]])
+
+## From the strategy memo of 5 May 2026
+
+- Responsible for [[alpcare-plus]] and, with [[priya-raman]], for the [[agentic-ai-service-pilot]]. (Source: [[2026-05-05-strategy-memo-service-first]])
