@@ -7,6 +7,7 @@
 - [[2026-03-12-executive-board-minutes]] – EB meeting of 12 March 2026: business performance, AlpPick 2.0 launch, AlpCare Plus, personnel (updated 2026-10-02)
 - [[2026-05-05-strategy-memo-service-first]] – strategy memo (draft) by the CEO: Service first 2026–2028, AlpCare Plus, AlpMind as a platform, Agentic AI (updated 2026-10-02)
 - [[2026-06-18-email-thread-bergland]] – email thread with Bergland, 16–18 June 2026: downtime, AlpCare price, AlpPick 2.0 date, credit note request (updated 2026-10-02)
+- [[2026-07-30-q2-report-excerpt]] – quarterly report Q2 2026: key figures, approved prices, AlpPick 2.0 pre-orders, Bergland costs (updated 2026-10-02)
 
 ## Entities (people, organizations, products)
 - [[alpstein-robotics-ag]] – our company: sites, headcount, products (updated 2026-10-02)
@@ -21,6 +22,7 @@
 - [[alpmind]] – our fleet software (updated 2026-10-02)
 - [[rheintal-pharma-ag]] – pharma customer with a mixed fleet, first site for AlpMind as a platform (updated 2026-10-02)
 - [[thomas-rueegg]] – Head of Logistics, Bergland Logistik AG (updated 2026-10-02)
+- [[toggenburg-moebel-ag]] – new customer since Q2 2026 (9 AlpPick) (updated 2026-10-02)
 
 ## Concepts
 - [[executive-board]] – Executive Board: members and meetings (updated 2026-10-02)

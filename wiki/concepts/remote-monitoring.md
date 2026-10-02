@@ -3,7 +3,7 @@ title: Remote monitoring
 type: concept
 created: 2026-10-02
 updated: 2026-10-02
-sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md, raw/alpstein/2026-06-18-email-thread-bergland.md]
+sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md, raw/alpstein/2026-06-18-email-thread-bergland.md, raw/alpstein/2026-07-30-q2-report-excerpt.md]
 tags: [service, software]
 ---
 
@@ -23,3 +23,7 @@ Remote monitoring of robots via [[alpmind]], part of [[alpcare]].
 ## From the email thread of 16–18 June 2026
 
 - At [[bergland-logistik-ag]], remote monitoring reported the error on 15 June 2026, but nobody was reachable before 10 a.m.; the robots stood still for almost two hours. (Source: [[2026-06-18-email-thread-bergland]])
+
+## From the Q2 report of 30 July 2026
+
+- 4 open positions in service field staff are still unfilled (as of 30 July 2026) – the shortage that remote monitoring is meant to make up for. (Source: [[2026-07-30-q2-report-excerpt]])
