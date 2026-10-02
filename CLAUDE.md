@@ -1,7 +1,7 @@
 # CLAUDE.md – Job description of my Second Brain agent
 
 > The agent reads this file at the start of every session. It is the agent's job description and the house rules of this vault.
-> You replace everything in [square brackets] during the course (Task 2 and 4). Sections 4 to 6 are intentionally already filled in: they are the basic version that you sharpen later.
+> Sections 1 to 3 describe me and my domain. Sections 4 to 6 define structure, workflows and boundaries. Hard technical boundaries are in `.claude/settings.json`.
 
 ---
 
@@ -77,7 +77,7 @@ tags: [topic, topic]
 ```
 
 - **Links:** Wikilinks `[[filename-without-extension]]`. Every page has at least one link to another page.
-- **Notes:** Callouts in Obsidian format, e.g., `> [!warning] Contradiction` or `> [!note] Uncertain`.
+- **Notes:** Callouts in Obsidian format: `> [!warning] Contradiction`, `> [!warning] Outdated` or `> [!note] Uncertain`.
 - **Source citation:** Every key statement names its source, e.g., `(Source: [[2026-03-12-executive-board-minutes]])`.
 
 ### Quality rules
@@ -86,7 +86,8 @@ tags: [topic, topic]
 2. Always give numbers with date and source.
 3. Do **not resolve** contradictions between sources. Flag them (callout `[!warning] Contradiction`) and report them to me.
 4. Mark uncertainty (`[!note] Uncertain`), do not smooth it over.
-5. After every action: check `_index.md`, add to `_log.md`.
+5. If a newer source replaces a statement of an older one, keep the old statement with its date, mark it (`[!warning] Outdated`) and show the new one. Do not delete it.
+6. After every action: check `_index.md`, add to `_log.md`.
 
 ## 5. Workflows (basic version)
 
@@ -102,7 +103,8 @@ tags: [topic, topic]
 5. Link all pages with each other.
 6. Update `wiki/_index.md`.
 7. Append an entry to `wiki/_log.md`: date, "ingest", source, new and changed pages.
-8. Report to me in at most 8 lines: What is new? What has changed? What is unclear or contradictory?
+8. Let the `reviewer` agent (`.claude/agents/reviewer.md`) check all new and changed pages.
+9. Report to me in at most 8 lines: What is new? What has changed? What is unclear or contradictory? Then show the reviewer's table and its approval line. Fix reviewer findings only after my yes.
 
 ### Workflow 2: Query
 
@@ -128,6 +130,11 @@ tags: [topic, topic]
 6. Change nothing automatically. I decide what you fix.
 7. Append an entry to `wiki/_log.md`.
 
+### Workflow 4: Customer briefing
+
+**When** I write "Prepare the meeting with `<customer>`" or "/customer-briefing `<customer>`",
+**Then:** follow the skill `.claude/skills/customer-briefing/SKILL.md`. For a briefing for the Executive Board on a topic, use `.claude/skills/briefing/SKILL.md`.
+
 ## 6. Boundaries (basic version)
 
 - Never delete files. Only rename when I explicitly say so.
@@ -135,4 +142,9 @@ tags: [topic, topic]
 - Do not fetch external sources from the internet unless I explicitly tell you to.
 - If you are unsure: ask, do not guess.
 - If a task would change more than 10 pages: show the plan first, then wait for my yes.
-- [Your rules from Task 7]
+- **Suggest, never promise.** Never formulate commitments to customers or third parties on my behalf: no prices, delivery dates, credit notes, compensation or service levels. Draft wording for customer meetings is always marked as a draft.
+- **Decided means explicitly decided.** Treat something as decided only if a source says so (e.g., "Decision:" in minutes). Drafts, proposals, emails and verbal statements stay marked as proposed or open.
+- **Irrelevant inputs:** If a source does not belong in a knowledge wiki (e.g., shopping lists, private notes), do not ingest it. Tell me why and ask what to do. It may stay in `raw/`.
+- **Confidential data:** No confidential or personal data beyond names and roles in the wiki. If a source contains such data, ask me first.
+- **No merging:** Never push to `main` and never merge. I approve every change via pull request.
+- **Hard rules:** `.claude/settings.json` blocks deleting, force-pushing, pushing to `main`, editing files in `raw/` and internet access. Do not try to work around these blocks; if one stops you, tell me.
