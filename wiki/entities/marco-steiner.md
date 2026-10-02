@@ -3,7 +3,7 @@ title: Marco Steiner
 type: entity
 created: 2026-10-02
 updated: 2026-10-02
-sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-06-18-email-thread-bergland.md]
+sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-06-18-email-thread-bergland.md, raw/alpstein/2026-07-30-q2-report-excerpt.md]
 tags: [person, executive-board]
 ---
 
@@ -20,3 +20,7 @@ tags: [person, executive-board]
 ## From the email thread of 16–18 June 2026
 
 - Is to see any commitment to [[bergland-logistik-ag]] (credit note) before it is made, according to [[sandra-koller]]; a clarification with him was requested for 18 June 2026. Outcome not in the wiki. (Source: [[2026-06-18-email-thread-bergland]])
+
+## From the Q2 report of 30 July 2026
+
+- Prepared the Q2 report [[2026-07-30-q2-report-excerpt]] for the [[executive-board]]. (Source: [[2026-07-30-q2-report-excerpt]])

@@ -3,7 +3,7 @@ title: Service first strategy 2026–2028
 type: project
 created: 2026-10-02
 updated: 2026-10-02
-sources: [raw/alpstein/2026-05-05-strategy-memo-service-first.md]
+sources: [raw/alpstein/2026-05-05-strategy-memo-service-first.md, raw/alpstein/2026-07-30-q2-report-excerpt.md]
 tags: [strategy, service]
 ---
 
@@ -33,3 +33,11 @@ Proposed strategy of [[alpstein-robotics-ag]] by [[lea-brunner]]: from robot man
 ## Open points
 
 - Approval of the 50% target by the [[executive-board]] on 7 May 2026: outcome not in the wiki.
+
+## From the Q2 report of 30 July 2026
+
+- Service share of revenue: **31%** in Q2 2026 (Q1 28%, Q2 2025 26%; plan Q2 2026 30%). (Source: [[2026-07-30-q2-report-excerpt]])
+- Two of the three requested decisions are reported as approved: pricing model [[alpcare-plus]] and the budget for the [[agentic-ai-service-pilot]]. (Source: [[2026-07-30-q2-report-excerpt]])
+
+> [!note] Uncertain
+> Whether the target of 50% service revenue by 2028 was approved is not stated in the Q2 report.

@@ -89,22 +89,44 @@ tags: [topic, topic]
 5. If a newer source replaces a statement of an older one, keep the old statement with its date, mark it (`[!warning] Outdated`) and show the new one. Do not delete it.
 6. After every action: check `_index.md`, add to `_log.md`.
 
-## 5. Workflows (basic version)
+## 5. Workflows
 
 ### Workflow 1: Ingest
 
-**When** I write "Ingest `<file>`" or "Read `<file>` in" (or I paste text and say "Save this as a source and ingest it"),
+**When** I write "Ingest `<file>`" or "Read `<file>` in", or I paste text and say "Save this as a source and ingest it",
 **Then:**
 
 1. If I paste text, first save it as a source under `raw/<topic>/<YYYY-MM-DD>-<shortname>.md`.
-2. Read the source completely.
-3. Write a source page in `wiki/sources/` with: summary (max. 5 sentences), key points as a list, people and organizations involved, open points.
-4. For each new person, organization, product, project and term, create a page, or update the existing one. First check in `_index.md` whether the page already exists.
-5. Link all pages with each other.
-6. Update `wiki/_index.md`.
-7. Append an entry to `wiki/_log.md`: date, "ingest", source, new and changed pages.
-8. Let the `reviewer` agent (`.claude/agents/reviewer.md`) check all new and changed pages.
-9. Report to me in at most 8 lines: What is new? What has changed? What is unclear or contradictory? Then show the reviewer's table and its approval line. Fix reviewer findings only after my yes.
+2. Read the source completely and check whether it belongs in a knowledge wiki. If not (e.g., a shopping list), tell me why and stop.
+3. Check in `_index.md` which pages already exist. If the ingest would create or change more than 10 pages, show me the plan first and wait for my yes.
+4. Write a source page in `wiki/sources/` with: summary (max. 5 sentences), key points as a list, people and organizations involved, open points.
+5. For each new person, organization, product, project and term, create a page, or update the existing one. Link all pages with each other.
+6. Update `wiki/_index.md` and append an entry to `wiki/_log.md`: date, "ingest", source, new and changed pages.
+7. Let the `reviewer` agent (`.claude/agents/reviewer.md`) check all new and changed pages.
+8. Report to me in at most 8 lines: What is new? What has changed? What is unclear or contradictory? Then show the reviewer's table and its approval line. Fix reviewer findings only after my yes.
+
+**Quality criteria:**
+
+- Every key statement names its source; every number has date, unit and source.
+- A contradiction is flagged with `[!warning] Contradiction` on **every** page that states one of the conflicting values, not only on the source page.
+- A newer statement never silently replaces an older one: the old one stays with its date and is marked `[!warning] Outdated`.
+- Only the three callout types from section 4 (`Contradiction`, `Outdated`, `Uncertain`).
+- Something counts as decided only if a source says so explicitly. Proposals, drafts and emails stay proposed or open.
+- Customer pages get a section "For customer meetings (as of <date>)" with open points and what not to promise.
+
+**Done when:**
+
+- The reviewer says **Approval: yes**, or I have decided to leave its findings open.
+- `_index.md` and `_log.md` are up to date and all wikilinks point to existing pages.
+- The changes are pushed and a pull request is created.
+
+**Never:**
+
+- Change or delete anything in `raw/` (except saving a new source I give you).
+- Resolve a contradiction yourself.
+- Present proposals, drafts or verbal statements as decisions.
+- Ingest irrelevant sources.
+- Merge or push to `main`.
 
 ### Workflow 2: Query
 
@@ -122,13 +144,18 @@ tags: [topic, topic]
 **When** I write "Lint",
 **Then:**
 
-1. Look for contradictions between pages (numbers, dates, names, statements).
-2. Look for outdated statements (an older source says A, a newer one says B, the page still shows A).
-3. Look for orphaned pages (no incoming links) and missing links.
-4. Look for gaps (people or projects that are often mentioned but have no page).
-5. Write a report to `wiki/_lint/<YYYY-MM-DD>.md` with finding, severity (high/medium/low) and suggestion.
-6. Change nothing automatically. I decide what you fix.
-7. Append an entry to `wiki/_log.md`.
+1. Read `wiki/_index.md` and all pages.
+2. **Find:**
+   - contradictions between pages (numbers, dates, names, statements), especially those without a `[!warning] Contradiction` callout;
+   - outdated statements (an older source says A, a newer one says B, the page still shows A, or A is not marked `[!warning] Outdated`);
+   - orphaned pages (no incoming links) and missing links;
+   - gaps (people, customers or projects that are often mentioned but have no page);
+   - key statements without a source, numbers without date or unit;
+   - callout types not listed in section 4;
+   - open decisions (credit notes, dates, prices, approvals) and since when they are open.
+3. **Report as:** a table in `wiki/_lint/<YYYY-MM-DD>.md` with the columns Finding | Pages | Severity (high/medium/low) | Suggestion, sorted by severity. In the chat, a summary in at most 8 lines.
+4. Update `wiki/_index.md` (section "Lint reports") and append an entry to `wiki/_log.md`.
+5. **Never fix on your own:** change no wiki page during a Lint. Fix only the findings I approve, one by one or as a group.
 
 ### Workflow 4: Customer briefing
 

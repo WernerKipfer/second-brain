@@ -3,7 +3,7 @@ title: Bergland Logistik AG
 type: entity
 created: 2026-10-02
 updated: 2026-10-02
-sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-06-18-email-thread-bergland.md]
+sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-06-18-email-thread-bergland.md, raw/alpstein/2026-07-30-q2-report-excerpt.md]
 tags: [organization, customer]
 ---
 
@@ -39,3 +39,19 @@ Customer of [[alpstein-robotics-ag]] in Buchs.
 
 - Open: credit note request, launch date of AlpPick 2.0, valid AlpCare price.
 - Do not confirm a credit note, a price or a launch date until a decision is documented.
+
+## From the Q2 report of 30 July 2026
+
+- **18 new AlpPick** delivered in Q2 2026 (expansion of Halls 3 and 4). Total fleet size is still not in the wiki. (Source: [[2026-07-30-q2-report-excerpt]])
+- Three downtime incidents (May/June 2026) caused special costs of **CHF 62,000** for Alpstein (call-outs, spare parts). (Source: [[2026-07-30-q2-report-excerpt]])
+- Navigation error fixed since the patch of 24 June 2026. (Source: [[2026-07-30-q2-report-excerpt]])
+- **Credit note: not booked; the decision lies with the EB** (as of 30 July 2026). (Source: [[2026-07-30-q2-report-excerpt]])
+- Bergland has planned an expansion for September; a postponement of [[alppick-2-0]] to Q4 is named as a risk. (Source: [[2026-07-30-q2-report-excerpt]])
+
+> [!warning] Outdated
+> The EB decision of 12 March 2026 on a market launch in **September 2026** ([[2026-03-12-executive-board-minutes]]) is no longer the current status: according to the Q2 report, the launch date "will be set at the Executive Board meeting in August" (Source: [[2026-07-30-q2-report-excerpt]]). A postponement to Q4 is named as a risk. The outcome of the August meeting is not in the wiki.
+
+## For customer meetings (as of 30 July 2026)
+
+- Valid prices: AlpCare CHF 1,200, AlpCare Plus CHF 1,900 (approved) – see contradiction with the CHF 1,450 named by Jonas Weber.
+- Do not confirm a credit note or a launch date: both are EB decisions not yet documented.
