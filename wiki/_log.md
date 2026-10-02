@@ -8,3 +8,5 @@
 - 2026-10-02 11:05 | ingest | raw/alpstein/2026-05-05-strategy-memo-service-first.md | new: 2026-05-05-strategy-memo-service-first, service-first-strategy, alpmind-platform, agentic-ai-service-pilot, rheintal-pharma-ag, board-of-directors; changed: alpstein-robotics-ag, alpcare, alpcare-plus, alpmind, alppick-2-0, lea-brunner, jonas-weber, priya-raman, remote-monitoring, executive-board, _index
 - 2026-10-02 11:15 | query | When will AlpPick 2.0 launch, and who is responsible for it? | alppick-2-0
 - 2026-10-02 11:20 | query | How many robots does Bergland Logistik have? | bergland-logistik-ag
+- 2026-10-02 11:45 | ingest | raw/alpstein/2026-06-18-email-thread-bergland.md | new: 2026-06-18-email-thread-bergland, thomas-rueegg; changed: bergland-logistik-ag, alppick, remote-monitoring, jonas-weber, sandra-koller, marco-steiner, alpcare, alpcare-plus, alppick-2-0, _index
+- 2026-10-02 11:55 | review | Reviewer findings on ingest of 2026-06-18-email-thread-bergland fixed (contradiction callouts, units, dates, wording) | jonas-weber, 2026-06-18-email-thread-bergland, remote-monitoring, thomas-rueegg, bergland-logistik-ag
