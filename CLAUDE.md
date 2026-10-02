@@ -130,6 +130,11 @@ tags: [topic, topic]
 6. Change nothing automatically. I decide what you fix.
 7. Append an entry to `wiki/_log.md`.
 
+### Workflow 4: Customer briefing
+
+**When** I write "Prepare the meeting with `<customer>`" or "/customer-briefing `<customer>`",
+**Then:** follow the skill `.claude/skills/customer-briefing/SKILL.md`. For a briefing for the Executive Board on a topic, use `.claude/skills/briefing/SKILL.md`.
+
 ## 6. Boundaries (basic version)
 
 - Never delete files. Only rename when I explicitly say so.
