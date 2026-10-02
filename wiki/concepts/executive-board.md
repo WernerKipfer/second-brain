@@ -3,7 +3,7 @@ title: Executive Board (EB)
 type: concept
 created: 2026-10-02
 updated: 2026-10-02
-sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md, raw/alpstein/2026-07-30-q2-report-excerpt.md]
+sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md, raw/alpstein/2026-07-30-q2-report-excerpt.md, raw/alpstein/2026-08-21-kickoff-notes-agentic-ai-pilot.md]
 tags: [governance, executive-board]
 ---
 
@@ -37,3 +37,7 @@ Management body of [[alpstein-robotics-ag]].
 
 - Pending EB decisions (as of 30 July 2026): launch date of [[alppick-2-0]] (August meeting) and the credit note for [[bergland-logistik-ag]]. (Source: [[2026-07-30-q2-report-excerpt]])
 - Reported as approved: pricing model [[alpcare-plus]] (CHF 1,900) and the budget for the [[agentic-ai-service-pilot]] (CHF 180,000). (Source: [[2026-07-30-q2-report-excerpt]])
+
+## From the kickoff notes of 21 August 2026
+
+- Expects a status report on the [[agentic-ai-service-pilot]] from [[jonas-weber]] by 30 September 2026; not in the wiki. (Source: [[2026-08-21-kickoff-notes-agentic-ai-pilot]])

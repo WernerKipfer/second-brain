@@ -3,7 +3,7 @@ title: Jonas Weber
 type: entity
 created: 2026-10-02
 updated: 2026-10-02
-sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md, raw/alpstein/2026-06-18-email-thread-bergland.md]
+sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md, raw/alpstein/2026-06-18-email-thread-bergland.md, raw/alpstein/2026-08-21-kickoff-notes-agentic-ai-pilot.md]
 tags: [person, executive-board]
 ---
 
@@ -33,3 +33,8 @@ tags: [person, executive-board]
 
 > [!warning] Contradiction
 > Launch date of AlpPick 2.0: the EB decided on a market launch in **September 2026** (12 March 2026, [[2026-03-12-executive-board-minutes]]). On 16 June 2026 [[jonas-weber]] writes to the customer that "we currently assume Q4", which is "not yet confirmed" (Source: [[2026-06-18-email-thread-bergland]]). No source documents a decision to postpone. Not resolved – to be clarified.
+
+## From the kickoff notes of 21 August 2026
+
+- Project lead of the [[agentic-ai-service-pilot]]. (Source: [[2026-08-21-kickoff-notes-agentic-ai-pilot]])
+- Tasks: finalize the rule set "What the agent may do" with [[nadia-frei]] by 5 September 2026; status report to the EB by 30 September 2026. (Source: [[2026-08-21-kickoff-notes-agentic-ai-pilot]])

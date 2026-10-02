@@ -3,7 +3,7 @@ title: AlpMind
 type: entity
 created: 2026-10-02
 updated: 2026-10-02
-sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md, raw/alpstein/2026-07-30-q2-report-excerpt.md]
+sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md, raw/alpstein/2026-07-30-q2-report-excerpt.md, raw/alpstein/2026-08-21-kickoff-notes-agentic-ai-pilot.md]
 tags: [product, software]
 ---
 
@@ -24,3 +24,7 @@ Fleet software of [[alpstein-robotics-ag]] for [[alppick]] robots.
 
 - Software revenue Q2 2026: CHF 0.7 million (plan 0.6); licenses grow with the fleet. (Source: [[2026-07-30-q2-report-excerpt]])
 - Interface to third-party robots at prototype stage: [[alpmind-platform]]. (Source: [[2026-07-30-q2-report-excerpt]])
+
+## From the kickoff notes of 21 August 2026
+
+- Source of service tickets for the service triage agent of the [[agentic-ai-service-pilot]]. (Source: [[2026-08-21-kickoff-notes-agentic-ai-pilot]])
