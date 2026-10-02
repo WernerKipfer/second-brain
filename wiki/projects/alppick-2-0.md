@@ -3,7 +3,7 @@ title: AlpPick 2.0
 type: project
 created: 2026-10-02
 updated: 2026-10-02
-sources: [raw/alpstein/2026-03-12-executive-board-minutes.md]
+sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-05-05-strategy-memo-service-first.md]
 tags: [product, hardware, launch]
 ---
 
@@ -28,3 +28,7 @@ New generation of the [[alppick]] picking robot. Presented by [[priya-raman]].
 
 > [!note] Uncertain
 > The launch date is the status of 12 March 2026. Check newer sources before quoting it to customers.
+
+## From the strategy memo of 5 May 2026
+
+- Named as a risk for the [[service-first-strategy]]: if AlpPick 2.0 arrives in the fall, it pulls attention away from service. (Source: [[2026-05-05-strategy-memo-service-first]])
