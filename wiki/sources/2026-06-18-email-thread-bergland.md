@@ -13,7 +13,7 @@ tags: [customer, bergland, service, alpcare]
 
 ## Summary
 
-[[thomas-rueegg]] of [[bergland-logistik-ag]] complains about the third downtime incident in four weeks: four [[alppick]] robots in Hall 3 stood still for almost two hours. [[jonas-weber]] names a navigation software error after the update of 20 May as the cause and announces a patch. He tells the customer that AlpCare now costs CHF 1,450 with a guaranteed response time and that the [[alppick-2-0]] launch is assumed for Q4, not confirmed. [[sandra-koller]] warns internally not to commit to anything before [[marco-steiner]] has seen it, as the pricing is not decided. The customer understands an unclear remark as a promise of compensation and asks for a credit note; Jonas Weber says he did not commit to anything concrete.
+[[thomas-rueegg]] of [[bergland-logistik-ag]] complains about the third downtime incident in four weeks: four [[alppick]] robots in Hall 3 stood still for almost two hours. [[jonas-weber]] names a navigation software error after the update of 20 May as the cause and announces a patch. He tells the customer that AlpCare now costs CHF 1,450 per robot and month with a guaranteed response time and that the [[alppick-2-0]] launch is assumed for Q4, not confirmed. [[sandra-koller]] warns internally not to commit to anything before [[marco-steiner]] has seen it, as the pricing is not decided. The customer understands an unclear remark as a promise of compensation and asks for a credit note; Jonas Weber says he did not commit to anything concrete.
 
 ## Key points
 

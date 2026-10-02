@@ -25,7 +25,7 @@ Customer of [[alpstein-robotics-ag]] in Buchs.
 - Contact: [[thomas-rueegg]], Head of Logistics. (Source: [[2026-06-18-email-thread-bergland]])
 - Fleet: at least four [[alppick]] robots in Hall 3 (plus the two AlpPick 2.0 pilot robots above); the total fleet size is not in the wiki. (Source: [[2026-06-18-email-thread-bergland]])
 - Third downtime incident in four weeks: on 15 June 2026 four robots in Hall 3 stood still for almost two hours; cause was a navigation software error after the update of 20 May 2026. (Source: [[2026-06-18-email-thread-bergland]])
-- Cost of downtime according to the customer: about CHF 4,000 per hour. (Source: [[2026-06-18-email-thread-bergland]])
+- Cost of downtime according to the customer: about CHF 4,000 per hour (16 June 2026). (Source: [[2026-06-18-email-thread-bergland]])
 - [[remote-monitoring]] reported the error, but nobody was reachable before 10 a.m. (Source: [[2026-06-18-email-thread-bergland]])
 - Expansion planned for September 2026, based on the AlpPick 2.0 launch. (Source: [[2026-06-18-email-thread-bergland]])
 

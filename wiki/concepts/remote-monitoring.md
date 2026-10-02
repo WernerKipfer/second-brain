@@ -22,4 +22,4 @@ Remote monitoring of robots via [[alpmind]], part of [[alpcare]].
 
 ## From the email thread of 16–18 June 2026
 
-- At [[bergland-logistik-ag]], remote monitoring reported the error on 15 June 2026, but nobody was reachable before 10 a.m. Monitoring alone did not prevent two hours of downtime. (Source: [[2026-06-18-email-thread-bergland]])
+- At [[bergland-logistik-ag]], remote monitoring reported the error on 15 June 2026, but nobody was reachable before 10 a.m.; the robots stood still for almost two hours. (Source: [[2026-06-18-email-thread-bergland]])
