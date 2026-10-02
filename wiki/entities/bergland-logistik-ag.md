@@ -3,7 +3,7 @@ title: Bergland Logistik AG
 type: entity
 created: 2026-10-02
 updated: 2026-10-02
-sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-06-18-email-thread-bergland.md, raw/alpstein/2026-07-30-q2-report-excerpt.md]
+sources: [raw/alpstein/2026-03-12-executive-board-minutes.md, raw/alpstein/2026-06-18-email-thread-bergland.md, raw/alpstein/2026-07-30-q2-report-excerpt.md, raw/alpstein/2026-08-21-kickoff-notes-agentic-ai-pilot.md]
 tags: [organization, customer]
 ---
 
@@ -55,3 +55,7 @@ Customer of [[alpstein-robotics-ag]] in Buchs.
 
 - Valid prices: AlpCare CHF 1,200, AlpCare Plus CHF 1,900 (approved) – see contradiction with the CHF 1,450 named by Jonas Weber.
 - Do not confirm a credit note or a launch date: both are EB decisions not yet documented.
+
+## From the kickoff notes of 21 August 2026
+
+- The Bergland case is cited as the reason why the service agent may **never** promise a credit note or compensation ([[agentic-ai-service-pilot]]). (Source: [[2026-08-21-kickoff-notes-agentic-ai-pilot]])
